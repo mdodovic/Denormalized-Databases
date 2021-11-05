@@ -1,0 +1,5 @@
+update [tpcE].[dbo].[HOLDING_SUMMARY]
+
+SET HS_QTY = 2171 + 998
+
+WHERE HS_CA_ID = 43000017397 and HS_S_SYMB = 'ABFS'

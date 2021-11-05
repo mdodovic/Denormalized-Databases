@@ -1,0 +1,7 @@
+UPDATE [tpcE].[dbo].[LAST_TRADE]
+
+SET [LT_PRICE] = 37.2
+
+WHERE [LT_S_SYMB] = 'CHTT'
+
+

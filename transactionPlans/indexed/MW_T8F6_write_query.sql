@@ -1,0 +1,5 @@
+update [tpcE].[dbo].[CUSTOMER_ACCOUNT]
+
+SET [CA_BAL] = [CA_BAL] + -5759.38
+
+WHERE [CA_ID] = 43000017397

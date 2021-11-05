@@ -1,0 +1,7 @@
+SELECT TOP 10 CA_ID, CA_BAL, RES_SUM
+
+FROM dbo.cA_Indexed WITH (NOEXPAND)
+
+WHERE CA_C_ID = 4300000007
+
+order by 3 asc
