@@ -1,0 +1,9 @@
+﻿Build started 12/18/2021 1:57:29 PM.
+     1>Project "C:\Users\Matija\Desktop\Fakultet\DiplomskiRad\korisno\tpce-benchmark-tools-main\tpc-e-tool\InputFiles\prj\VS2010\EGenInputFiles.vcxproj" on node 3 (Build target(s)).
+     1>Lib:
+         EGenInputFiles.vcxproj -> C:\Users\Matija\Desktop\Fakultet\DiplomskiRad\korisno\tpce-benchmark-tools-main\tpc-e-tool\InputFiles\prj\VS2010\..\..\lib\Debug_Win32\EGenInputFiles.lib
+     1>Done Building Project "C:\Users\Matija\Desktop\Fakultet\DiplomskiRad\korisno\tpce-benchmark-tools-main\tpc-e-tool\InputFiles\prj\VS2010\EGenInputFiles.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.42
