@@ -1,0 +1,10 @@
+﻿Build started 12/18/2021 1:57:29 PM.
+     1>Project "C:\Users\Matija\Desktop\Fakultet\DiplomskiRad\korisno\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\EGenDriverMEELib.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (..\..\obj\Debug_Win32\) contains files shared from another project (EGenBaseLoader.vcxproj, EGenDriverCELib.vcxproj, EGenDriverDMLib.vcxproj, EGenFlatFileLoader.vcxproj, EGenGenerateAndLoad.vcxproj, EGenLoader.vcxproj, EGenLogger.vcxproj, EGenMSSQLLoader.vcxproj, EGenNullLoader.vcxproj, EGenTables.vcxproj, EGenTxnHarness.vcxproj, EGenValidate.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Lib:
+         EGenDriverMEELib.vcxproj -> C:\Users\Matija\Desktop\Fakultet\DiplomskiRad\korisno\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\..\..\lib\Debug_Win32\EGenDriverMEELib.lib
+     1>Done Building Project "C:\Users\Matija\Desktop\Fakultet\DiplomskiRad\korisno\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\EGenDriverMEELib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17

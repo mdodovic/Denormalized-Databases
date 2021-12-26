@@ -1,0 +1,19 @@
+﻿Build started 11/5/2020 2:39:47 PM.
+     1>Project "E:\Ljubica\TPC-E Banchmark\Nemanja\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\EGenDriverCELib.vcxproj" on node 5 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (..\..\obj\Debug_Win32\) contains files shared from another project (EGenBaseLoader.vcxproj, EGenDriverDMLib.vcxproj, EGenDriverMEELib.vcxproj, EGenFlatFileLoader.vcxproj, EGenLogger.vcxproj, EGenMSSQLLoader.vcxproj, EGenNullLoader.vcxproj, EGenTables.vcxproj, EGenTxnHarness.vcxproj, EGenValidate.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D COMPILE_ODBC_LOAD /D MSSQL /D _CRT_SECURE_NO_DEPRECATE /D _BIND_TO_CURRENT_VCLIBS_VERSION /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\obj\Debug_Win32\\" /Fd"..\..\lib\Debug_Win32\EGenDriverCELib.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\CE.cpp ..\..\src\CETxnInputGenerator.cpp ..\..\src\CETxnMixGenerator.cpp
+         CETxnMixGenerator.cpp
+         CETxnInputGenerator.cpp
+         CE.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\Debug_Win32\EGenDriverCELib.lib" /NOLOGO ..\..\obj\Debug_Win32\CE.obj
+         ..\..\obj\Debug_Win32\CETxnInputGenerator.obj
+         ..\..\obj\Debug_Win32\CETxnMixGenerator.obj
+         EGenDriverCELib.vcxproj -> E:\Ljubica\TPC-E Banchmark\Nemanja\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\..\..\lib\Debug_Win32\EGenDriverCELib.lib
+     1>Done Building Project "E:\Ljubica\TPC-E Banchmark\Nemanja\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\EGenDriverCELib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.89

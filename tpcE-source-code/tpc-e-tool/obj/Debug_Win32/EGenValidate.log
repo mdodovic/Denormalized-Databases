@@ -1,0 +1,25 @@
+﻿Build started 11/5/2020 2:39:31 PM.
+     1>Project "E:\Ljubica\TPC-E Banchmark\Nemanja\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\EGenValidate.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (..\..\obj\Debug_Win32\) contains files shared from another project (EGenBaseLoader.vcxproj, EGenDriverDMLib.vcxproj, EGenDriverMEELib.vcxproj, EGenFlatFileLoader.vcxproj, EGenLogger.vcxproj, EGenMSSQLLoader.vcxproj, EGenNullLoader.vcxproj, EGenTxnHarness.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _BIND_TO_CURRENT_VCLIBS_VERSION /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\obj\Debug_Win32\\" /Fd"..\..\obj\Debug_Win32\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\bucketsimulator.cpp ..\..\src\EGenValidate.cpp ..\..\src\progressmeter.cpp ..\..\src\progressmeterinterface.cpp ..\..\src\strutil.cpp
+         strutil.cpp
+         progressmeterinterface.cpp
+         progressmeter.cpp
+         EGenValidate.cpp
+         bucketsimulator.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Debug_Win32\EGenValidate.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:uuid.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\Debug_Win32\EGenValidate.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\..\bin\Debug_Win32\EGenValidate.lib" /MACHINE:X86 /SAFESEH ..\..\obj\Debug_Win32\bucketsimulator.obj
+         ..\..\obj\Debug_Win32\EGenValidate.obj
+         ..\..\obj\Debug_Win32\progressmeter.obj
+         ..\..\obj\Debug_Win32\progressmeterinterface.obj
+         ..\..\obj\Debug_Win32\strutil.obj
+         "E:\Ljubica\TPC-E Banchmark\Nemanja\tpce-benchmark-tools-main\tpc-e-tool\Utilities\lib\Debug_Win32\EGenUtilities.lib"
+     1>bucketsimulator.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         EGenValidate.vcxproj -> E:\Ljubica\TPC-E Banchmark\Nemanja\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\..\..\bin\Debug_Win32\EGenValidate.exe
+     1>Done Building Project "E:\Ljubica\TPC-E Banchmark\Nemanja\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\EGenValidate.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.86

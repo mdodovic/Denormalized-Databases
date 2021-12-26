@@ -1,0 +1,14 @@
+﻿Build started 11/5/2020 2:39:31 PM.
+     1>Project "E:\Ljubica\TPC-E Banchmark\Nemanja\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\EGenDriverDMLib.vcxproj" on node 3 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (..\..\obj\Debug_Win32\) contains files shared from another project (EGenBaseLoader.vcxproj, EGenDriverMEELib.vcxproj, EGenFlatFileLoader.vcxproj, EGenLogger.vcxproj, EGenMSSQLLoader.vcxproj, EGenNullLoader.vcxproj, EGenTxnHarness.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D COMPILE_ODBC_LOAD /D MSSQL /D _CRT_SECURE_NO_DEPRECATE /D _BIND_TO_CURRENT_VCLIBS_VERSION /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\obj\Debug_Win32\\" /Fd"..\..\lib\Debug_Win32\EGenDriverDMLib.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\DM.cpp
+         DM.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\Debug_Win32\EGenDriverDMLib.lib" /NOLOGO ..\..\obj\Debug_Win32\DM.obj
+         EGenDriverDMLib.vcxproj -> E:\Ljubica\TPC-E Banchmark\Nemanja\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\..\..\lib\Debug_Win32\EGenDriverDMLib.lib
+     1>Done Building Project "E:\Ljubica\TPC-E Banchmark\Nemanja\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\EGenDriverDMLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.09

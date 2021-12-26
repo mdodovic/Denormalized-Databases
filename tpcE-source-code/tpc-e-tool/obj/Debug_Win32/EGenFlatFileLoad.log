@@ -1,0 +1,14 @@
+﻿Build started 12/18/2021 4:48:17 PM.
+     1>Project "C:\Users\Matija\Desktop\Fakultet\DiplomskiRad\korisno\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\EGenFlatFileLoad.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (..\..\obj\Debug_Win32\) contains files shared from another project (EGenBaseLoader.vcxproj, EGenDriverCELib.vcxproj, EGenDriverDMLib.vcxproj, EGenDriverMEELib.vcxproj, EGenGenerateAndLoad.vcxproj, EGenLoader.vcxproj, EGenLogger.vcxproj, EGenMSSQLLoader.vcxproj, EGenNullLoader.vcxproj, EGenTables.vcxproj, EGenTxnHarness.vcxproj, EGenValidate.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D COMPILE_FLAT_FILE_LOAD /D COMPILE_ODBC_LOAD /D _CRT_SECURE_NO_DEPRECATE /D _BIND_TO_CURRENT_VCLIBS_VERSION /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\obj\Debug_Win32\\" /Fd"..\..\lib\Debug_Win32\FlatFileLoad.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\FlatFileLoader.cpp
+         FlatFileLoader.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\Debug_Win32\EGenFlatFileLoader.lib" /NOLOGO ..\..\obj\Debug_Win32\FlatFileLoader.obj
+         EGenFlatFileLoad.vcxproj -> C:\Users\Matija\Desktop\Fakultet\DiplomskiRad\korisno\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\..\..\lib\Debug_Win32\EGenFlatFileLoader.lib
+     1>Done Building Project "C:\Users\Matija\Desktop\Fakultet\DiplomskiRad\korisno\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\EGenFlatFileLoad.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.93

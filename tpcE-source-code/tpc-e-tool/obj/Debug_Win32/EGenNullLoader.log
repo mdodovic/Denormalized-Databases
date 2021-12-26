@@ -1,0 +1,8 @@
+﻿Build started 11/5/2020 2:39:31 PM.
+     1>Project "E:\Ljubica\TPC-E Banchmark\Nemanja\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\EGenNullLoader.vcxproj" on node 5 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (..\..\obj\Debug_Win32\) contains files shared from another project (EGenBaseLoader.vcxproj, EGenLogger.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Done Building Project "E:\Ljubica\TPC-E Banchmark\Nemanja\tpce-benchmark-tools-main\tpc-e-tool\prj\VS2010\EGenNullLoader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10
